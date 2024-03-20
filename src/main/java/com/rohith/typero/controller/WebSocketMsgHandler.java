@@ -1,11 +1,9 @@
-package com.rohith.webrtc.controller;
+package com.rohith.typero.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.rohith.webrtc.model.ExitGame;
-import com.rohith.webrtc.model.Player;
-import com.rohith.webrtc.model.Game;
+import com.rohith.typero.model.ExitGame;
+import com.rohith.typero.model.Player;
+import com.rohith.typero.model.Game;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.ChannelTopic;
@@ -15,11 +13,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.messaging.simp.annotation.SubscribeMapping;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 

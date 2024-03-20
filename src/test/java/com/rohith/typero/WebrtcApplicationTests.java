@@ -1,4 +1,4 @@
-package com.rohith.webrtc;
+package com.rohith.typero;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

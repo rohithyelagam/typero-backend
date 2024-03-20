@@ -1,4 +1,4 @@
-package com.rohith.webrtc.config;
+package com.rohith.typero.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

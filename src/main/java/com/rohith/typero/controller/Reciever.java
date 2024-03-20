@@ -1,7 +1,7 @@
-package com.rohith.webrtc.controller;
+package com.rohith.typero.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rohith.webrtc.model.Game;
+import com.rohith.typero.model.Game;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.connection.MessageListener;

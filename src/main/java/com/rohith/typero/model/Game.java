@@ -1,10 +1,9 @@
-package com.rohith.webrtc.model;
+package com.rohith.typero.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 

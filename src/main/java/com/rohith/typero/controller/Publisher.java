@@ -1,6 +1,6 @@
-package com.rohith.webrtc.controller;
+package com.rohith.typero.controller;
 
-import com.rohith.webrtc.model.Game;
+import com.rohith.typero.model.Game;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
